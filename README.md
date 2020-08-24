@@ -1,2 +1,2 @@
 # congenial-octo-spoon
-HTML c,c++ codes for Practice
+HTML,C,C++ codes for practice.
