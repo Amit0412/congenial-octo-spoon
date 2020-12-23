@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .amit
+        {
+            border: 5px solid black;
+            width: 700px;
+            height: 300px;
+        }
+        h1{
+            margin-left: 50px;
+
+        }
+        p{
+            margin-left: 50px;
+        }
+        a{
+            background-color: black;
+            text-decoration: none;
+        }
+        a.hj:hover
+        {
+            background-color:white;
+        }
+        .w
+        {
+            margin-left: 500px;
+            margin-top: 20px;
+            color: white;
+            border: 5px solid black;
+            width: 100px;
+            height: 70px;
+            background-color: rgba(220, 30, 5, 0.75);
+            padding-top: 50px;
+            animation-name: example;
+            animation-delay: 0s;
+            animation-timing-function:linear;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            animation-duration: 4s;
+            
+        }
+        @keyframes example
+        {
+            0%
+            {
+                transition:transform 2s;
+            }
+            50%
+            {
+                margin-left: 700px;
+                transition: margin-left 2s transform 2s linear;
+                transform: rotate(180deg);
+            }
+            100%
+            {
+                margin-left: 1000px;
+                transition: margin-left 2s transform 2s linear;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="amit">
+    <h1>CSS PAGINATION</h1>
+    <p>Learn how to create a responsive pagination using CSS.</p>
+    <a href="#" >Previous</a>
+    <a href="#" class="hj">1</a>
+    <a href="#" class="hj">2</a>
+    <a href="#" >Next</a>
+    </div>
+    <img src="https://media.tenor.com/images/4353846517fe7ff10eb9a18bbc30463e/tenor.gif">
+    <p class="w">VERY COLD.</p>
+</body>
+</html>
